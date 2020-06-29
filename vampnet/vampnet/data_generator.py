@@ -52,7 +52,7 @@ class BrownianDynamics(object):
 
 def asymmetric_double_well_energy(x):
     r"""computes the potential energy at point x"""
-    _x = x - 2.0
+    _x = x
     return 2.0 * _x - 6.0 * _x**2 + _x**4
 
 def asymmetric_double_well_gradient(x):
